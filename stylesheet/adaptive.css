@@ -1,0 +1,1126 @@
+@media screen and (min-width:1px) and (max-width:450px) {
+
+.first_screen{
+    position: relative;
+    height: 300vw;
+}
+.second_screen{
+    position: relative; 
+    height: 20vh;
+    margin-top: -170%;
+}
+
+/*.second_screen img{
+    margin-top: 0px!important;
+}*/
+
+.third_screen{
+    position: relative;
+    height: 280vw;
+    margin-top: 1%;
+}
+
+.forth_screen{
+    position: relative;
+   height: 80vw;
+}
+
+.logo{
+        content: url("../img/logomobile.png");
+        width: 92%;
+        height: auto;
+        top: 7%;
+        left: 3vw;
+        animation: pulseOpacity 3s ease-in-out infinite alternate;
+        z-index: 15;
+}
+@keyframes pulseOpacity {
+    from { opacity: 1; filter: blur(20px); 
+    }
+    to {opacity: 0.6; filter: blur(0); }
+}
+.logo:hover{
+    transition: 0.5s ease-in-out;
+    animation: paused;
+
+}
+
+.blel{
+   position: absolute;
+    width: 100%;
+    height: 40%;
+    top: 5%;
+    left: 0%;
+    z-index: 9;
+    object-fit: cover;
+    
+
+    
+} 
+
+.rl1{
+     content: url("../img/rl1mobile.png");
+    position: absolute;
+    width: 80%;
+    height: auto;
+    top: 0%;
+    left: 30%;
+    z-index: 2;
+   animation: tentacleBreath 4s ease-in-out infinite;
+   rotate: 18deg;
+
+}
+@keyframes tentacleBreath {
+  0% { transform: translateY(0) scaleY(1) rotate(0deg); }
+  20% { transform: translateY(1%) scaleY(1.02) rotate(0.5deg); }
+  40% { transform: translateY(-0.5%) scaleY(0.98) rotate(-0.3deg); }
+  60% { transform: translateY(0.8%) scaleY(1.01) rotate(0.4deg); }
+  80% { transform: translateY(-0.3%) scaleY(0.99) rotate(-0.2deg); }
+  100% { transform: translateY(0) scaleY(1) rotate(0deg); }
+}
+.wh1{
+     position: absolute;
+    width: 100%;
+    height: 30%;
+    top: 0%;
+   margin-right: 3%;
+    z-index: 1;
+}
+
+.wh2{
+     position: absolute;
+    width: 60%;
+    height: 30%;
+    top: 20%;
+   left: 0%;
+    z-index: 1;
+}
+
+.wh3{
+     position: absolute;
+    width: 80%;
+    height: 100%;
+    top: 40%;
+   right: 2%;
+    z-index: 1;
+}
+
+.wh7{
+     position: absolute;
+    width: 90%;
+    height: 30%;
+    top: 20%;
+   left: 0%;
+    z-index: 1;
+}
+.wh5{
+     position: absolute;
+    width: 60%;
+    height: 30%;
+    top: 25%;
+   right: 2%;
+    z-index: 1;
+    rotate: 30deg;
+}
+.rl2{
+    position: absolute;
+     content: url("../img/rl2mobile.png");
+    width: 85%;
+    height: auto;
+    top: 19%;
+    left: -20%;
+    z-index: 2;
+     animation: tentacleBreath2 4s ease-in-out infinite;
+
+}
+@keyframes tentacleBreath2 {
+  0% { transform: translateY(0) scaleY(1) rotate(0deg); }
+  15% { transform: translateY(1.2%) scaleY(1.015) rotate(0.6deg); }
+  35% { transform: translateY(-0.7%) scaleY(0.985) rotate(-0.4deg); }
+  55% { transform: translateY(0.9%) scaleY(1.01) rotate(0.3deg); }
+  75% { transform: translateY(-0.4%) scaleY(0.992) rotate(-0.2deg); }
+  100% { transform: translateY(0) scaleY(1) rotate(0deg); }
+}
+
+.vp1{
+    display: none;
+}
+
+
+
+.txt1{
+    position: relative;
+    font-size: 5vw;
+    top: 43%;
+    left: 7vw;
+}
+
+.txt2{
+    position: relative;
+    font-size: 5vw;
+    top: 45%;
+    left: 7vw;
+}
+
+.bt1{
+    position: absolute;
+    background-image: url(../img/button1.png);
+    background-size: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    width: 50vw;
+    height: 10vw;
+     margin-top: 55%;
+    left: 25vw;
+    
+        z-index: 20;
+        color: aliceblue;
+          font-size: 5vw;
+          text-align: center;
+          line-height: 4.5vw;
+          cursor: pointer;
+}
+.bt1:hover{
+    background-image: url(../img/buttonred1.png);
+   
+    width: 50vw;
+    height: 10vw;
+     top: 55%;
+    left: 25vw;
+    
+   
+    z-index: 20;
+}
+.qwerty1{
+    position: absolute;
+    margin-top: 2vw;
+     margin-left: 10vw;
+}
+.qwerty{
+    position: absolute;
+    margin-top: 2vw;
+     margin-left: 2vw;
+}
+
+.popup1{
+    
+    position: absolute;
+    width: 80%;
+    height: 40%;
+    margin: auto;
+      top: 50%;
+    left: 10vw;
+   z-index: 50;
+
+
+}
+.shop{
+    top: 4vw;
+    left: 18vw;
+    width: 45vw;
+    height: 18vw;
+}
+.midtxt{
+    color: aliceblue;
+    font-size: 3.5vw;
+    
+}
+.how{
+    position: absolute;
+    top: 16vw;
+    left: 5vw;
+}
+.choose{
+
+    position: absolute;
+    top: 33vw;
+    left: 5vw;
+}
+.write{
+     position: absolute;
+    margin-top:52vw;
+    left: 5vw;
+}
+.no{
+    position: absolute;
+    font-size: 7vw;
+    top: 2vw;
+    left: 72vw;
+    z-index: 1;
+    rotate: 45deg;
+    color: aliceblue;
+    cursor: pointer;}
+   
+
+
+
+.namebox {
+    position: absolute;
+    background-image:url(../img/namebox.png);
+    width: 100%;
+    background-size: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    width: 40vw;
+    height: 10vw;
+    top: 22vw;
+    left: 4vw;
+        z-index: 20;
+        color: rgb(100, 100, 100);
+          font-size: clamp(16px, 2vw, 32px);
+
+          text-align: left;
+          
+          line-height: 4vw;
+  
+}
+.ww{
+    font-size: clamp(16px, 2vw, 32px);
+    background: transparent;
+    margin-left: 2vw;
+     border: none;
+    outline: none;
+
+}
+.ww::placeholder {
+    color: rgb(59, 59, 59);
+    opacity: 1; }
+
+.draw{
+    position: absolute; /* или relative */
+  width: 65vw;
+  height: 25vw;
+   margin-top:55vw;
+    left: 7vw;
+  background-image: url(../img/writing.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
+
+}
+
+.draw-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  background: transparent;
+  display: block;
+  z-index: 100;
+
+}
+
+
+.pay1, .pay2 {
+    position: absolute;
+    background-image: url(../img/payment.png);
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+    width: 25vw;
+    height: 8vw;
+    top: 39vw;
+    left: 5vw;
+    text-align: center;
+    cursor: pointer;
+}
+.pay2 {
+    left: 32vw;
+}
+.pay1:hover, .pay2:hover, .pay1.active, .pay2.active {
+    background-image: url(../img/paymentred.png);
+    z-index: 20;
+}
+.payment-message {
+    position: absolute;
+ top: 65vw;
+    left: 1vw;
+  font-size: 2.4vw;
+  color: #d2d2d2;
+  z-index: 100;
+}
+
+.pt{
+    margin-top:2.5vw;
+}
+
+.done{
+    position: absolute;
+    background-image: url(../img/payment.png);
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+    width: 35vw;
+    height: 10vw;
+    top: 98vw;
+    left: 22vw;
+    text-align: center;
+    cursor: pointer;
+}
+.done:hover, .done:active{
+     background-image: url(../img/paymentred.png);
+    z-index: 20;
+}
+
+.popupdone{
+    position: absolute;
+    width: 70vw;
+    height: auto;
+    margin: auto;
+     top: 8vw;
+    left: 4vw;
+   z-index: 100;
+
+
+}
+.popupdone img{
+    width: 100%;
+}
+
+.donetxt{
+    font-size: 3.5vw;
+    position: absolute;
+    top: 10vw; 
+    left: 10vw;
+   
+}
+
+
+.nope{
+    display: none;
+}
+
+
+.rl3{
+    position: absolute;
+    content: url("../img/rl3mobile.png");
+   
+    width: 100%;
+    height: auto;
+left: 0%;
+margin-top: -27vw;
+}
+
+.today{
+    position: absolute;
+    width: 85%;
+    height: 15vw;
+    margin-top: -7vw;
+    left: 7vw;
+}
+
+
+
+.btartist1{
+    position: absolute;
+    background-image: url(../img/button1.png);
+    background-size: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+   width: 50vw;
+    height: 10vw;
+    top: 13%;
+    left: 25vw;
+        z-index: 20;
+        color: aliceblue;
+          font-size: 2vw;
+          text-align: center;
+          line-height: 4.5vw;
+          cursor: pointer;
+          font-size: 5vw;
+}
+.btartist1:hover{
+    background-image: url(../img/buttonred1.png);
+    background-size: 100%;
+    position: absolute;
+     width: 50vw;
+    height: 10vw;
+     top: 13%;
+    left: 25vw;
+    object-fit: cover;
+    background-repeat: no-repeat;
+   font-size: 5vw;
+    z-index: 20;
+}
+
+
+.btartist2{
+    position: absolute;
+    background-image: url(../img/button1.png);
+    background-size: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    width: 50vw;
+    height: 10vw;
+     top: 16.5%;
+    left: 25vw;
+        z-index: 20;
+        color: aliceblue;
+          font-size: 2vw;
+          text-align: center;
+          line-height: 4.5vw;
+          cursor: pointer;
+          font-size: 5vw;
+}
+.btartist2:hover{
+    background-image: url(../img/buttonred1.png);
+    background-size: 100%;
+    position: absolute;
+    width: 50vw;
+    height: 10vw;
+      top: 16.5%;
+    left: 25vw;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    font-size: 5vw;
+    z-index: 20;
+}
+.btartist3{
+    position: absolute;
+    background-image: url(../img/button1.png);
+    background-size: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    width: 50vw;
+    height: 10vw;
+     top: 20%;
+    left: 25vw;
+   
+        z-index: 20;
+        color: aliceblue;
+          font-size: 2vw;
+          text-align: center;
+          line-height: 4.5vw;
+          cursor: pointer;
+          font-size: 5vw;
+}
+.btartist3:hover{
+    background-image: url(../img/buttonred1.png);
+    background-size: 100%;
+    position: absolute;
+   width: 50vw;
+    height: 10vw;
+    top: 20%;
+    left: 25vw;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    font-size: 5vw;
+   
+    z-index: 20;
+
+} 
+.popup-artist1{
+        position: relative;
+         top: 1%;
+    }
+
+ .vp2{
+        position: relative;
+        width: 80%;
+        height: auto;
+        margin-top: -15%;
+        left: 10%;
+    }
+
+    .vitxt{
+        position: absolute;
+        margin-top: 51%;
+        left: 4vw;
+        font-size: 3.5vw;
+        width: 90%;
+    }
+.bigtxt{
+    color: aliceblue;
+    font-size: 5vw; 
+    margin-top: 77%;
+    left: 3vw;
+}
+.bigtxt br{
+    display: none;
+}
+
+.popupvibutton{
+      position: absolute;
+    background-image: url(../img/button1.png);
+    background-size: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    width: 35vw;
+    height: 10vw;
+    margin-top: 49%;
+    left: 55vw;
+        z-index: 20;
+        color: aliceblue;
+          font-size: 4vw;
+          text-align: center;
+          line-height: 4.5vw;
+          cursor: pointer;
+
+}
+.popupvibutton:hover{
+      background-image: url(../img/buttonred1.png);
+    background-size: 100%;
+    position: absolute;
+    width: 35vw;
+    height: 10vw;
+    object-fit: cover;
+    background-repeat: no-repeat;
+  margin-top: 49%;
+   left: 55vw;
+    z-index: 20;
+}
+.default{
+    content: url(../img/popupmobile.png);
+    width: 110%;
+
+}
+.noo{
+    
+    font-size: 7vw;
+    top: -1.5vw;
+    right: 40vw;
+}
+
+.imgbox {
+  position: relative;
+  width: 130%;           /* ширина относительно родителя (.popupvienna) */
+  height: auto;
+  margin: 0 auto; 
+       /* центрирование */
+  /* можно добавить background для наглядности */
+}
+
+.imgbox img {
+  position: absolute;
+  width: 20%;           /* процент от ширины .imgbox, а не от окна */
+  height: auto;
+  display: flex;
+  
+}
+.lana {
+  top: -82vw;
+ left: 7%
+
+}
+
+.tame {
+  top: -62vw;
+  left: 7%
+}
+.tyler {
+  top: -42vw;
+  left: 7%
+}
+.bunny {
+  top: -22vw;
+  left: 7%;}
+
+.viphoto{
+    content: url(../img/viphotomobile.png);
+    top: -62vw;
+  left: 29.5%;
+    height: auto;
+    width: 45%;
+    z-index: 100;
+}
+.pvt{
+    font-size: 3.5vw;
+    left: 38%;
+    top: 17vw;
+}
+
+.best, .others {
+    font-size: 3vw;
+    position: absolute;
+    top: -50vw;
+    left: 30vw;
+    z-index: 10;
+}
+
+.viname{
+position: absolute;
+  width: 150vw;           
+  height: auto;
+  top: -14.5vw;
+    left: 37vw;
+  display: block;
+  z-index: 150;
+}
+
+
+
+
+.riphoto{
+    content: url(../img/ritimgmobile.png);
+      position: absolute;
+  width: 54vw;           
+  height: auto;
+  top: 33.2vw;
+    left: 13.8vw;
+  display: block;  
+}
+.ritaname{
+    position: absolute;
+  width: 30vw;           
+  height: auto;
+  top: 75vw;
+    left: 37vw;
+  display: block;
+  z-index: 100;
+}
+.rittxt{
+     font-size: 3vw;
+    position: absolute;
+    top: 8vw;
+    left: 4.2vw;
+}
+
+.nooo{
+    position: absolute;
+    font-size: 7vw;
+    top: 1.5vw;
+    left: 63.5vw;
+    z-index: 1;
+    rotate: 45deg;
+    color: aliceblue;
+    cursor: pointer;
+   
+}
+
+.guessbox {
+    position: absolute;
+    background-image:url(../img/guessbox.png);
+    width: 40vw;
+    background-size: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    
+    height: 15vw;
+    top: 27vw;
+    left: 15vw;
+        z-index: 20;
+        color: rgb(100, 100, 100);
+           font-size: 2vw;
+
+          text-align: left;
+          
+          line-height: 4vw;
+  
+}
+.www{
+     background: transparent;
+    margin-left: 2vw;
+    margin-top: 1.5vw;
+     border: none;
+    outline: none;
+    color: dimgrey;
+    font-size: clamp(16px, 1vw, 32px);
+}
+
+.checkbt{
+
+    position: absolute;
+    background-image: url(../img/checkbox.png);
+    background-size: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    width: 30vw;
+    height: 15vw;
+    top: 40vw;
+     left: 20vw;
+        z-index: 120;
+        color: aliceblue;
+          font-size: 2.5vw;
+          text-align: center;
+          line-height: 4.5vw;
+          cursor: pointer;
+}
+.checkbt:hover{
+    background-image: url(../img/checkboxred.png);
+    background-size: 100%;
+    position: absolute;
+    width: 30vw;
+  height: 15vw;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    top: 40vw;
+    left: 20vw;
+    z-index: 120;
+}
+
+.chtxt{
+    margin-top: 1vw;
+    font-size: 3.5vw;
+}
+
+.feedback{
+    position: absolute;
+    font-size: 3.5vw;
+    top: 25vw;
+    margin-left: 11vw;
+    white-space: nowrap;
+}
+
+
+.popupritbutton{
+    position: absolute;
+    background-image: url(../img/button1.png);
+    background-size: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    width: 35vw;
+    height: 10vw;
+    margin-top: 55%;
+    left: 55vw;
+        z-index: 20;
+        color: aliceblue;
+          font-size: 4vw;
+          text-align: center;
+          line-height: 4.5vw;
+          cursor: pointer;
+
+}
+.popupritbutton:hover{
+     background-image: url(../img/buttonred1.png);
+    background-size: 100%;
+    position: absolute;
+    width: 35vw;
+    height: 10vw;
+    object-fit: cover;
+    background-repeat: no-repeat;
+  margin-top: 55%;
+   left: 55vw;
+    z-index: 20;}
+.popuphanbutton{
+      position: absolute;
+    background-image: url(../img/button1.png);
+    background-size: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    width: 35vw;
+    height: 10vw;
+    margin-top: 57%;
+    left: 55vw;
+        z-index: 20;
+        color: aliceblue;
+          font-size: 4vw;
+          text-align: center;
+          line-height: 4.5vw;
+          cursor: pointer;
+
+}
+.popuphanbutton:hover{
+      background-image: url(../img/buttonred1.png);
+    background-size: 100%;
+    position: absolute;
+    width: 35vw;
+    height: 10vw;
+    object-fit: cover;
+    background-repeat: no-repeat;
+  margin-top: 57%;
+   left: 55vw;
+    z-index: 20;
+}
+
+
+
+.popuphanna{
+        position: absolute;
+    width: 70vw;
+    height: auto;
+    margin: auto;
+    top: 95vw;
+    left: 15vw;
+   z-index: 100;
+
+}
+.no4{
+     position: absolute;
+    font-size: 7vw;
+    top: 1.5vw;
+    left: 63vw;
+    z-index: 1;
+    rotate: 45deg;
+    color: aliceblue;
+    cursor: pointer;
+
+}
+
+.popuphanna img {
+    width: 100%;          
+    height: auto;         
+    display: block;       
+
+}
+
+.haname{
+  position: absolute;
+  width: 30vw;           
+  height: auto;
+  top: 83vw;
+    left: 37vw;
+  display: block;
+  z-index: 100;
+}
+
+.haphoto{
+  content: url(../img/hannaimgmobile.png);
+      position: absolute;
+  width: 54vw;           
+  height: auto;
+  top: 33.2vw;
+    left: 13.8vw;
+  display: block;  
+}
+.hatxt{
+    position: absolute;
+    font-size: 3.3vw;
+    top: 7.5vw;
+    left: 4.5vw;
+}
+
+
+.card{
+  position: absolute;
+  width: 13vw;
+  height: 13vw;
+  transform-style: preserve-3d;
+  transition: transform .6s;
+  z-index: 1000;
+}
+
+
+.c1{
+  top: 20vw;
+  left: 6.5vw;
+}
+
+.c8{
+ top: 20vw;
+  left: 21.5vw;
+
+}
+
+.c3{ 
+ top: 20vw;
+  left: 36.5vw;
+
+}
+
+.c7{ top: 20vw;
+  left: 51.5vw;
+}
+
+.c5{
+    top: 35vw;
+  left: 51.5vw;
+}
+
+.c6{
+   top: 35vw;
+  left: 36.5vw;
+}
+.c4{
+   top: 35vw;
+  left: 21.5vw;
+}
+.c2{
+   top: 35vw;
+  left: 6.5vw;
+}
+.win-message {
+    position: absolute;
+  display: none;
+  font-size: 5vw;
+  top: 50vw;
+  left: 32vw;
+}
+
+.pq{
+top: -10%;
+width: 93vw;
+height: 50vw;
+}
+
+.ptxt{
+    position: absolute;
+    margin-top: 8vw;
+    font-size: 5vw;
+    left: 11vw;
+    z-index: 7;
+}
+
+
+.bt11:hover, .bt22:hover {
+    background-image: url(../img/btlastred\ .png);
+}
+.bt11 {
+    position: absolute;
+    width: 16vw;
+    height: 20vw;
+    left: 20vw;
+    margin-top: 22vw;
+    background-image: url(../img/btlastpng.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    object-fit: cover;  
+    color: aliceblue;
+    font-size: 3.5vw;
+    text-align: center;
+    cursor: pointer;
+    z-index: 100; 
+}
+
+.bt22 {
+        color: aliceblue;
+    font-size: 3.5vw;
+    text-align: center;
+    position: absolute;
+     width: 16vw;
+    height: 20vw;
+    left: 55vw;
+    margin-top: 22vw;
+    background-image: url(../img/btlastpng.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    object-fit: cover; 
+    z-index: 100;
+     cursor: pointer; 
+}
+
+.bt11, .bt22 {
+  display: flex;         
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.25s ease, opacity 0.2s ease;
+
+}
+
+.tt{
+ margin-top: -7.5vw;
+   pointer-events: none;
+}
+
+.photoend{
+    position: absolute;
+    width: 90vw;
+    height: 70vw;
+    top: -80%;
+    left: 0%;
+}
+
+.rl5{
+    display: none;
+}
+.rl6{
+     position: absolute;
+     width: 100vw;
+     height: 80vw;
+     top: -4%;
+}
+
+.lefttxt{
+font-size: 3.5vw;
+position: absolute;
+top: 60%;
+left: 3vw;
+z-index: 15;
+
+}
+.righttxt{
+font-size: 3.5vw;
+position: absolute;
+top: 60%;
+right: 3vw;
+z-index: 15;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+}
+/*ipad mini*/
+@media screen and (min-width:451px) and (max-width:768px){
+    .logo{
+      top: 3%;
+      width: 80%;
+    }
+    .midtxt{
+      font-size: 2.5vw;
+    }
+    .txt1{
+      margin-top: 58%;
+      left: 25%;
+    }
+     .txt2{
+      top: 24%;
+      left: 25%;
+    }
+    .rl3{
+      top: 10%;
+    }
+     .rl2{
+      top: 2%;
+    }
+   
+    .bt1 {
+      top: 27%;
+    }
+    .bt1:hover {
+      top: 27%;
+    }
+
+    .today{
+      top: 30%;
+      left: 35%;
+    }
+    .popupvibutton{
+      margin-top: 3vw;
+    }
+    .popupvibutton:hover{
+      margin-top: 3vw;
+    }
+    .popupritbutton{
+      margin-top: 3vw;
+    }
+    .popupritbutton:hover{
+      margin-top: 3vw;
+    }
+
+    .popuphanbutton{
+      margin-top: 3vw;
+    }
+    .popuphanbutton:hover{
+      margin-top: 3vw;
+    }
+    .rl4{
+      right: -10%;
+    }
+
+
+
+
+    .bigtxt{
+      margin-top: 2vw;
+    }
+    .btartist1{
+      width: 15;
+      height:7vw
+    }
+    .ptxt{
+      left: 7vw;
+    }
+
+
+
+
+
+}

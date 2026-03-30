@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheet/main.css">
+    <script src="./js.js"> </script>
+
+<link rel="icon" href="./img/free-icon-disco-ball-2564917.png" sizes="any">
+</head>
+<body>
+<div class="first_screen">
+<img class="logo" src="./img/logo.png" alt="">
+<img class="wh1" src="./img/wh1.png" alt="">
+<img class="rl1" src="./img/rl1.png" alt="">
+<img class="rl2" src="./img/rl2.png" alt="">
+<img class="blel" src="./img/blelips.png" alt="">
+<div class="txt1 midtxt"> Мы исследуем пересечение клубной <br>культуры нечисти и актуального  темного <br> искусства.</div>
+<div class="txt2 midtxt"> Ночной рейв уже сегодня в темном <br>пеереулке  около твоего дома.</div>
+<img class="wh2" src="./img/wh2.png" alt="">
+</div>
+
+<div class="bt1"> <p class="qwerty1"> Купить билет</p> 
+</div>
+
+<div class="popup1 none">
+        <img class="default" src="./img/popup1.png" alt="">
+        <div class="no">+</div>
+        <div class="shop"> </div>
+        <p class="midtxt how">Как вас зовут?</p>
+        <p class=" midtxt choose">Выберете способ оплаты </p>
+        <p class=" midtxt write">Распишитесь, чтобы мы могли обработать данные </p>
+    <div class="namebox">
+    <input type="text" class="ww" placeholder="Введите имя" value="">
+    </div>
+    <div class="draw">
+    <canvas class="draw-canvas" id="draw-canvas"></canvas>
+</div>
+        
+<div class="pay1"> <p class="midtxt pt">Картой</p></div>
+<div class="pay2"> <p class="midtxt pt">Наличкой</p></div>
+<div class="payment-message"></div>
+<div class="done"> <p class="midtxt pt">Подтвердить</p></div>
+<div class="popupdone none">
+    <img src="./img/popupdone.png" alt="">
+    <p class="midtxt donetxt"> Спасибо за заказ! Твой билет <br> будет ждать тебя на входе. <br> Не опаздывай, чтобы <br>не пропустить веселье</p>
+</div>
+</div>
+
+<div class="second_screen">
+<img class="rl3" src="./img/rl3.png" alt="">
+<img class="rl4" src="./img/rl4.png" alt="">
+<img class="wh3" src="./img/wh3.png" alt="">
+<img class="today" src=".//img/today.png" alt="">
+
+</div>
+
+<div class="third_screen">
+<div class="btartist1 active" data-target="popup-artist1"><p class="qwerty">VIENNA — LIVE</p></div>
+<div class="btartist2" data-target="popup-artist2"><p class="qwerty">RIT — DJ</p></div>
+<div class="btartist3" data-target="popup-artist3"><p class="qwerty">SUBRIHANNA — DJ</p></div>
+
+<div class="popup-artist1 artist-popup">
+
+    <img class="vp1" src="./img/viennabig.png" alt="Vienna">
+    <img class="vp2" src=".//img/viennasmall.png" alt="">
+    
+    <h2 class="bigtxt vibtxt">Привет, <br> меня зовут Виена!</h2>
+    <p class="midtxt vitxt ">
+      Я люблю слушать и петь хорошую <br> музыку! 
+      Моя любимая песня взяла <br> грэмми за лучшую обложку! <br>
+      Хочешь узнать меня лучше?</p>
+
+      
+
+      <div class=" popupvibutton"> Да, хочу!</div>
+
+      <div class="popupvienna none"> 
+       <img class="default" src="./img/popup1.png" alt="">
+          <div class="noo">+</div>
+         <p class="midtxt pvt">Включи мою любимую песню,<br> пожалуйста</p>
+         <div class="imgbox">
+
+        <img class="lana" src="./img/lana.png" alt=""> 
+        <audio id="lanaSong" src="./sound/Lana_Del_Rey_-_Ultraviolence_Acoustic_(SkySound.cc).mp3"></audio>
+
+         <img class="tame" src="./img/tame.png" alt="">
+         <audio id="tamesong" src="./sound/Tame_Impala_-_New_Person_Same_Old_Mistakes_(SkySound.cc).mp3"></audio>
+
+         <img class="tyler" src="./img/tyler.png" alt="">
+         <audio class="tylersound" src="./sound/Tyler_The_Creator_-_Like_Him_Feat_Lola_Young_(Rilds.com).mp3"></audio>
+
+         <img class="bunny" src="./img/bunny.png" alt=""> 
+         <audio class="bunnysound" src="./sound/Bad_Bunny_-_DtMF_(SkySound.cc).mp3"></audio>
+
+        <p class="midtxt best none">Это она! спасибо!</p>
+        <p class="midtxt others none">Хорошая песня, но не то!</p>
+
+        <div class="viphoto" > <img src="./img/vipopupphoto.png" alt=""></div> 
+         <div class="viname" > <img src="./img/viname.png" alt=""></div> 
+         </div>
+      </div>
+    </p>
+</div>
+<img class="wh6" src="./img/wh6.png" alt="">
+<img class="wh7" src="./img/wh7.png" alt="">
+
+<div class="popup-artist2 artist-popup none"> 
+    <img class="vp1" src="./img/ritbig.png" alt="">
+    <img class="vp2" src="./img/ritsmall.png" alt="">
+        <h2 class="bigtxt vibtxt">Привет, <br>меня зовут рита!!</h2>
+    <p class="midtxt vitxt">В диджеинге я уже больше 100 лет, кроме <br>
+        музыки люблю смотреть фильмы и играть <br> в игры. Хочешь узнать меня  ближе?
+    </p>
+    <div class="popupritbutton"> Да, хочу!</div>
+    <div class="popuprita none">
+        <img class="default" src="./img/popup1.png" alt="">
+        <div class="nooo">+</div>
+        <div class="riphoto"> <img src="./img/ritpopupphoto.png" alt=""></div>
+        <div class="ritaname"> <img src="./img/ritname.png" alt=""></div>
+        <p class="midtxt rittxt">Давай сыграем в игру! Я загадала число от <br> 1 до 10! Твоя задача угадать его. <br> (Не переживай! Я буду подсказывать)</p>
+        
+        
+   <div class="guessbox">
+    <input class="www" type="text" placeholder="Введи свою догадку">
+    <div class="feedback midtxt"></div>
+</div>
+<div class="checkbt"> <p class="chtxt">Проверить</p></div>
+
+    </div>
+</div>
+<img class="wh5" src="./img/wh5.png" alt="">
+<div class="popup-artist3 artist-popup none">
+     <img class="vp1" src="./img/hannabig.png" alt="">
+    <img class="vp2" src="./img/hannasmall.png" alt="">
+    <h2 class="bigtxt vibtxt">Привет, <br> меня зовут ханна!</h2>
+    <p class="midtxt vitxt"> Тебе стоит знать <br>
+что каждый мой сет уникален, <br>
+я ненавижу повторятся <br>
+хочешь узнать меня чуть лучше?
+    </p>
+    <div class=" popuphanbutton"> Да, хочу!</div>
+<div class="popuphanna none">
+        <img class="default" src="./img/popup1.png" alt="">
+        <div class="no4">+</div>
+        <div class="haphoto"> <img src="./img/---------------------------------------------------2 2.png" alt=""></div>
+        <div class="haname"> <img src="./img/haname.png" alt=""></div>
+        <p class="midtxt hatxt">Помнишь, что я не люблю повторятся? <br>
+Найдешь повторы для меня, <br> 
+чтобы я могла их убрать из сета?
+</p>
+                    <div class="card c1">
+                        <div class="front"></div>
+                        <div class="back"></div>
+                    </div>
+
+                    <div class="card c2">
+                        <div class="front"></div>
+                        <div class="back"></div>
+                    </div>
+
+                    <div class="card c3">
+                        <div class="front"></div>
+                        <div class="back"></div>
+                    </div>
+
+                    <div class="card c4">
+                        <div class="front"></div>
+                        <div class="back"></div>
+                    </div>
+
+                    <div class="card c5">
+                        <div class="front"></div>
+                        <div class="back"></div>
+                    </div>
+
+                    <div class="card c6">
+                        <div class="front"></div>
+                        <div class="back"></div>
+                    </div>
+                    <div class="card c7">
+                        <div class="front"></div>
+                        <div class="back"></div>
+                    </div>
+                    <div class="card c8">
+                        <div class="front"></div>
+                        <div class="back"></div>
+                    </div>
+                    <div class="win-message midtxt" id="winMessage">Спасибо!</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+
+<div class="forth_screen">
+    <img class="rl5" src="./img/rl5.png" alt="">
+    <img  class="photoend" src="./img/photoend.png" alt="">
+        <div class="pq">
+        <p class="ptxt midtxt"> Ты же придешь на вечеринку?</p>
+        <p class="ptxt midtxt none"> Круто! Будем ждать!!!</p>
+        <div class="bt11"> <p class="tt"> Да</p> </div>
+        <div class="bt22"> <p class="tt">Нет</p> </div>
+        </div>
+    <img class="rl6" src="./img/rl6.png" alt="">
+        <div class="lefttxt  qq"> 
+        Авторка: <br>
+        Зайцева Полина <br>
+        Группа: <br> Б25УКИ03
+        </div>
+    <div class="righttxt  qq">
+    Кураторы:  <br>
+    Камила Рихтер<br>
+    Нона Аракелян<br>
+    Артем Латышев
+    </div>
+</div>  
+
+    
+</body>
+</html>

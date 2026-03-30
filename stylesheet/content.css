@@ -1,0 +1,1159 @@
+html, body{
+background-color: rgb(0, 0, 0);
+overflow-x: hidden;
+margin: 0;
+padding: 0;
+width: 100vw;
+}
+body {
+    font-family: 'Helvetica', sans-serif;
+}
+@font-face {
+    font-family: 'Helvetica';
+    src: url(../Helvetica/helvetica_regular.otf) format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap; 
+}
+
+
+.logo{
+    position: absolute;
+width: 70%;
+    height: auto;
+    top: 13%;
+    left: 15%;
+    z-index: 10;
+    transition: 0.5s ease-in-out;
+    animation: pulseOpacity 3s ease-in-out infinite alternate;
+}
+@keyframes pulseOpacity {
+    from { opacity: 1; filter: blur(20px); 
+    }
+    to {opacity: 0.6; filter: blur(0); }
+}
+.logo:hover{
+    transition: 0.5s ease-in-out;
+    animation: paused;
+}
+
+.wh1{
+    position: absolute;
+    width: 30%;
+    height: auto;
+    top: 0%;
+    left: 70%;
+    z-index: 1;
+}
+.rl1{
+    position: absolute;
+    width: 45%;
+    height: auto;
+    top: 0%;
+    left: 60%;
+    z-index: 5;
+   animation: tentacleBreath 4s ease-in-out infinite;
+
+}
+@keyframes tentacleBreath {
+  0% { transform: translateY(0) scaleY(1) rotate(0deg); }
+  20% { transform: translateY(1%) scaleY(1.02) rotate(0.5deg); }
+  40% { transform: translateY(-0.5%) scaleY(0.98) rotate(-0.3deg); }
+  60% { transform: translateY(0.8%) scaleY(1.01) rotate(0.4deg); }
+  80% { transform: translateY(-0.3%) scaleY(0.99) rotate(-0.2deg); }
+  100% { transform: translateY(0) scaleY(1) rotate(0deg); }
+}
+
+.rl2{
+    position: absolute;
+    width: 45%;
+    height: auto;
+    top: 25%;
+    left: 0%;
+    z-index: 5;
+     animation: tentacleBreath2 4s ease-in-out infinite;
+
+}
+@keyframes tentacleBreath2 {
+  0% { transform: translateY(0) scaleY(1) rotate(0deg); }
+  15% { transform: translateY(1.2%) scaleY(1.015) rotate(0.6deg); }
+  35% { transform: translateY(-0.7%) scaleY(0.985) rotate(-0.4deg); }
+  55% { transform: translateY(0.9%) scaleY(1.01) rotate(0.3deg); }
+  75% { transform: translateY(-0.4%) scaleY(0.992) rotate(-0.2deg); }
+  100% { transform: translateY(0) scaleY(1) rotate(0deg); }
+}
+
+.blel{
+   position: absolute;
+    width: 100%;
+    height: auto;
+    top: -5%;
+    left: 0%;
+    z-index: 9;
+    object-fit: cover;
+    
+}
+.txt1{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 2vw;
+    top: 3.5vw;
+    left: 3vw;
+    z-index: 10;
+
+}
+.txt2{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 2vw;
+    top: 83%;
+    left: 62vw;
+    z-index: 10;
+
+}
+.wh2{
+    position: absolute;
+    width: 30%;
+    height: auto;
+    top: 20%;
+    left: 0%;
+    z-index: 1;
+}
+.bt1{
+    position: absolute;
+    background-image: url(../img/button1.png);
+    background-size: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    width: 23vw;
+    height: 5vw;
+    top: 60vw;
+    left: 40vw;
+        z-index: 20;
+        color: aliceblue;
+          font-size: 2.5vw;
+          text-align: center;
+          line-height: 4.5vw;
+          cursor: pointer;
+}
+.bt1:hover{
+    background-image: url(../img/buttonred1.png);
+    background-size: 100%;
+    position: absolute;
+    width: 23vw;
+    height: 5vw;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    top: 60vw;
+    left: 40vw;
+    z-index: 20;
+}
+
+.none{
+    display: none;
+}
+
+
+.no{
+    position: absolute;
+    font-size: 5vw;
+    top: 2vw;
+    left: 72vw;
+    z-index: 1;
+    rotate: 45deg;
+    color: aliceblue;
+    cursor: pointer;
+   
+}
+.shop{
+  position: absolute;
+  background-image: url(../img/shopimg.png);
+  width: 30vw;
+  height: 10vw;
+   background-size: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    top: 2vw;
+    left: 22vw;
+}
+
+.popup1{
+    position: absolute;
+    width: 78vw;
+    height: auto;
+    margin: auto;
+     top: 20vw;
+    left: 10vw;
+   z-index: 100;
+
+
+}
+.popup1 img{
+    width: 100%;
+}
+.midtxt{
+    color: aliceblue;
+    font-size: 2vw;
+    
+}
+.how{
+    position: absolute;
+    top: 10vw;
+    left: 4vw;
+}
+.choose{
+
+    position: absolute;
+    top: 26vw;
+    left: 4vw;
+}
+.write{
+     position: absolute;
+    top: 10vw;
+    left: 38vw;
+}
+
+
+.namebox {
+    position: absolute;
+    background-image:url(../img/namebox.png);
+    width: 100%;
+    background-size: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    width: 23vw;
+    height: 5vw;
+    top: 15vw;
+    left: 4vw;
+        z-index: 20;
+        color: rgb(100, 100, 100);
+          font-size: clamp(16px, 2vw, 32px);
+
+          text-align: left;
+          
+          line-height: 4vw;
+  
+}
+.ww{
+    font-size: clamp(16px, 2vw, 32px);
+    background: transparent;
+    margin-left: 2vw;
+     border: none;
+    outline: none;
+
+}
+.ww::placeholder {
+    color: rgb(59, 59, 59);
+    opacity: 1; }
+
+.draw{
+    position: absolute; /* или relative */
+  width: 32vw;
+  height: 9vw;
+  top: 15vw;
+  left: 38vw;
+  background-image: url(../img/writing.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
+
+}
+
+.draw-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  background: transparent;
+  display: block;
+  z-index: 100;
+
+}
+
+
+.pay1, .pay2 {
+    position: absolute;
+    background-image: url(../img/payment.png);
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+    width: 15.5vw;
+    height: 4.7vw;
+    top: 31vw;
+    left: 4vw;
+    text-align: center;
+    cursor: pointer;
+}
+.pay2 {
+    left: 22vw;
+}
+.pay1:hover, .pay2:hover, .pay1.active, .pay2.active {
+    background-image: url(../img/paymentred.png);
+    z-index: 20;
+}
+.payment-message {
+    position: absolute;
+  margin-top: -15vw; 
+  margin-left: 5vw;
+  font-size: 2vw;
+  color: #d2d2d2;
+  z-index: 100;
+}
+
+.pt{
+    margin-top:1.3vw;
+}
+
+.done{
+    position: absolute;
+    background-image: url(../img/payment.png);
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+    width: 15.5vw;
+    height: 4.7vw;
+    top: 42vw;
+    left: 55vw;
+    text-align: center;
+    cursor: pointer;
+}
+.done:hover, .done:active{
+     background-image: url(../img/paymentred.png);
+    z-index: 20;
+}
+
+.popupdone{
+    position: absolute;
+    width: 60vw;
+    height: auto;
+    margin: auto;
+     top: 8vw;
+    left: 8vw;
+   z-index: 100;
+
+
+}
+.popupdone img{
+    width: 100%;
+}
+
+.donetxt{
+    font-size: 3vw;
+    position: absolute;
+    top: 8vw; 
+    left: 7vw;
+   
+}
+
+
+
+.rl3{
+    position: absolute;
+    width: 30%;
+    height: auto;
+    top: 40vw;
+    left: 0vw;
+    z-index: 5;
+   animation: tentacleBreath 4s ease-in-out infinite;
+
+}
+
+.rl4{
+    position: absolute;
+    width: 40%;
+    height: auto;
+    top: 45vw;
+    left: 60vw;
+    z-index: 5;
+     animation: tentacleBreath2 4s ease-in-out infinite;
+
+}
+
+
+.wh3{
+    position: absolute;
+    width: 40%;
+    height: auto;
+    top: 45vw;
+    right: 0;
+    z-index: 1;
+    rotate: -7deg;
+}
+
+.today{
+    position: absolute;
+    width: 61vw;
+    height: auto;
+    top: 85vw;
+    left: 30vw;
+    z-index: 10;
+
+}
+
+
+
+.btartist1{
+    position: absolute;
+    background-image: url(../img/button1.png);
+    background-size: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    width: 23vw;
+    height: 5vw;
+    top: 100vw;
+    left: 3vw;
+        z-index: 20;
+        color: aliceblue;
+          font-size: 2vw;
+          text-align: center;
+          line-height: 4.5vw;
+          cursor: pointer;
+}
+.btartist1:hover{
+    background-image: url(../img/buttonred1.png);
+    background-size: 100%;
+    position: absolute;
+    width: 23vw;
+    height: 5vw;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    top: 100vw;
+    left: 3vw;
+    z-index: 20;
+}
+
+
+.btartist2{
+    position: absolute;
+    background-image: url(../img/button1.png);
+    background-size: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    width: 23vw;
+    height: 5vw;
+    top: 106vw;
+    left: 3vw;
+        z-index: 20;
+        color: aliceblue;
+          font-size: 2vw;
+          text-align: center;
+          line-height: 4.5vw;
+          cursor: pointer;
+}
+.btartist2:hover{
+    background-image: url(../img/buttonred1.png);
+    background-size: 100%;
+    position: absolute;
+    width: 23vw;
+    height: 5vw;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    top: 106vw;
+    left: 3vw;
+    z-index: 20;
+}
+.btartist3{
+    position: absolute;
+    background-image: url(../img/button1.png);
+    background-size: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    width: 23vw;
+    height: 5vw;
+    top: 112vw;
+    left: 3vw;
+        z-index: 20;
+        color: aliceblue;
+          font-size: 2vw;
+          text-align: center;
+          line-height: 4.5vw;
+          cursor: pointer;
+}
+.btartist3:hover{
+    background-image: url(../img/buttonred1.png);
+    background-size: 100%;
+    position: absolute;
+    width: 23vw;
+    height: 5vw;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    top: 112vw;
+    left: 3vw;
+    z-index: 20;
+}
+
+
+.btartist1.active,
+.btartist2.active,
+.btartist3.active{
+    background-image: url(../img/buttonred1.png);
+}
+
+.none{
+    display: none;
+}
+
+.popup-artist1{
+    width:auto;
+    height: auto;
+    
+}
+
+.vp1{
+    position: absolute;
+    width: 52vw;
+    height: auto;
+     left: 28vw;
+    top: 95vw;
+    z-index: 2;
+}
+.vp2{
+    position: absolute;
+    width: 35vw;
+    height: auto;
+    left: 68vw;
+    top:100vw;
+    z-index: 5;
+}
+.vitxt{
+    position: absolute;
+     left: 30vw;
+    top:130vw;
+    z-index: 15;
+}
+.bigtxt{
+    color: aliceblue;
+    font-size: 3.3vw; 
+}
+
+.vibtxt{
+  position: absolute;
+     left: 30vw;
+    top:97vw;
+    z-index: 15;  
+}
+
+
+/*попап виенна*/
+.popupvibutton{
+      position: absolute;
+    background-image: url(../img/button1.png);
+    background-size: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    width: 23vw;
+    height: 5vw;
+    top: 140vw;
+    left: 30vw;
+        z-index: 20;
+        color: aliceblue;
+          font-size: 2.5vw;
+          text-align: center;
+          line-height: 4.5vw;
+          cursor: pointer;
+
+}
+.popupvibutton:hover{
+      background-image: url(../img/buttonred1.png);
+    background-size: 100%;
+    position: absolute;
+    width: 23vw;
+    height: 5vw;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    top: 140vw;
+    left: 30vw;
+    z-index: 20;
+}
+
+
+.popupvienna{
+     position: absolute;
+    width: 70vw;
+    height: auto;
+    margin: auto;
+    top: 95vw;
+    left: 15vw;
+   z-index: 100;
+
+}
+.popupvienna img {
+    width: 100%;          
+    height: auto;         
+    display: block;       
+}
+
+
+.noo{
+    position: absolute;
+    font-size: 5vw;
+    top: 1.5vw;
+    left: 65vw;
+    z-index: 1;
+    rotate: 45deg;
+    color: aliceblue;
+    cursor: pointer;
+   
+}
+
+.pvt{
+    position: absolute;
+    top: 5vw;
+    left: 4vw;
+}
+
+.imgbox {
+  position: relative;
+  width: 80%;           /* ширина относительно родителя (.popupvienna) */
+  height: auto;
+  margin: 0 auto; 
+       /* центрирование */
+  /* можно добавить background для наглядности */
+}
+
+.imgbox img {
+  position: absolute;
+  width: 20%;           /* процент от ширины .imgbox, а не от окна */
+  height: auto;
+  display: block;
+  
+}
+.lana {
+  top: -35vw;
+  left: -3vw;
+
+}
+
+.tame {
+  top: -22vw;
+  left: -3vw;
+}
+.tyler {
+  top: -35vw;
+  left: 20%;
+}
+.bunny {
+  top: -22vw;
+  left: 20%;
+}
+.best, .others {
+    position: absolute;
+    top: -30vw;
+    left: 30vw;
+    z-index: 10;
+}
+
+.viphoto {
+     position: absolute;
+  width: 160vw;           
+  height: auto;
+  top: -37.5vw;
+    left: 29.2vw;
+  display: block;
+}
+.viname{
+position: absolute;
+  width: 100vw;           
+  height: auto;
+  top: -9.5vw;
+    left: 40vw;
+  display: block;
+}
+
+
+
+
+
+/*попап рита*/
+.popupritbutton{
+      position: absolute;
+    background-image: url(../img/button1.png);
+    background-size: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    width: 23vw;
+    height: 5vw;
+    top: 140vw;
+    left: 30vw;
+        z-index: 20;
+        color: aliceblue;
+          font-size: 2.5vw;
+          text-align: center;
+          line-height: 4.5vw;
+          cursor: pointer;
+
+}
+.popupritbutton:hover{
+      background-image: url(../img/buttonred1.png);
+    background-size: 100%;
+    position: absolute;
+    width: 23vw;
+    height: 5vw;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    top: 140vw;
+    left: 30vw;
+    z-index: 20;
+}
+.popuprita{
+        position: absolute;
+    width: 70vw;
+    height: auto;
+    margin: auto;
+    top: 95vw;
+    left: 15vw;
+   z-index: 100;
+
+}
+.popuprita img {
+    width: 100%;          
+    height: auto;         
+    display: block;       
+
+}
+.riphoto{
+      position: absolute;
+  width: 33vw;           
+  height: auto;
+  top: 10.2vw;
+    left: 35.1vw;
+  display: block;  
+}
+.ritaname{
+    position: absolute;
+  width: 19vw;           
+  height: auto;
+  top: 32vw;
+    left: 47vw;
+  display: block;
+  z-index: 100;
+}
+.rittxt{
+    position: absolute;
+    top: 4vw;
+    left: 4vw;
+}
+
+.nooo{
+    position: absolute;
+    font-size: 5vw;
+    top: 1.5vw;
+    left: 65vw;
+    z-index: 1;
+    rotate: 45deg;
+    color: aliceblue;
+    cursor: pointer;
+   
+}
+
+.guessbox {
+    position: absolute;
+    background-image:url(../img/guessbox.png);
+    width: 100%;
+    background-size: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    width: 23vw;
+    height: 15vw;
+    top: 25vw;
+    left: 8vw;
+        z-index: 20;
+        color: rgb(100, 100, 100);
+           font-size: 2vw;
+
+          text-align: left;
+          
+          line-height: 4vw;
+  
+}
+.www{
+     background: transparent;
+    margin-left: 2vw;
+    margin-top: 1.5vw;
+     border: none;
+    outline: none;
+    color: dimgrey;
+    font-size: clamp(16px, 2vw, 32px);
+}
+
+.checkbt{
+
+    position: absolute;
+    background-image: url(../img/checkbox.png);
+    background-size: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    width: 20vw;
+    height: 10vw;
+    top: 35vw;
+    left: 9.5vw;
+        z-index: 120;
+        color: aliceblue;
+          font-size: 2.5vw;
+          text-align: center;
+          line-height: 4.5vw;
+          cursor: pointer;
+}
+.checkbt:hover{
+    background-image: url(../img/checkboxred.png);
+    background-size: 100%;
+    position: absolute;
+    width: 20vw;
+  height: 10vw;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    top: 35vw;
+    left: 9.5vw;
+    z-index: 120;
+}
+
+.chtxt{
+    margin-top: 0.8vw;
+}
+
+.feedback{
+    position: absolute;
+    top: -8vw;
+    margin-left: 7vw;
+    white-space: nowrap;
+}
+/*попап ханна*/
+.popuphanbutton{
+      position: absolute;
+    background-image: url(../img/button1.png);
+    background-size: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    width: 23vw;
+    height: 5vw;
+    top: 140vw;
+    left: 30vw;
+        z-index: 20;
+        color: aliceblue;
+          font-size: 2.5vw;
+          text-align: center;
+          line-height: 4.5vw;
+          cursor: pointer;
+
+}
+.popuphanbutton:hover{
+      background-image: url(../img/buttonred1.png);
+    background-size: 100%;
+    position: absolute;
+    width: 23vw;
+    height: 5vw;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    top: 140vw;
+    left: 30vw;
+    z-index: 20;
+}
+.popuphanna{
+        position: absolute;
+    width: 70vw;
+    height: auto;
+    margin: auto;
+    top: 95vw;
+    left: 15vw;
+   z-index: 100;
+
+}
+.no4{
+     position: absolute;
+    font-size: 5vw;
+    top: 1.5vw;
+    left: 65vw;
+    z-index: 1;
+    rotate: 45deg;
+    color: aliceblue;
+    cursor: pointer;
+
+}
+
+.popuphanna img {
+    width: 100%;          
+    height: auto;         
+    display: block;       
+
+}
+
+.haname{
+     position: absolute;
+  width: 19vw;           
+  height: auto;
+  top: 37vw;
+    left: 47vw;
+  display: block;
+  z-index: 100;
+}
+
+.haphoto{
+position: absolute;
+  width: 33vw;           
+  height: auto;
+  top: 13vw;
+  left: 35.1vw;
+  display: block;   
+}
+.hatxt{
+    position: absolute;
+    top: 4vw;
+    left: 4.5vw;
+}
+
+
+.card{
+  position: absolute;
+  width: 9vw;
+  height: 9vw;
+  transform-style: preserve-3d;
+  transition: transform .6s;
+  z-index: 1000;
+}
+
+.card.open{
+  transform: rotateY(180deg);
+}
+
+
+
+.front,
+.back{
+  position: absolute;
+  inset: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  backface-visibility: hidden;
+}
+
+.c1 .back{ background-image: url(../img/sza.png); }
+.c2 .back{ background-image: url(../img/sza.png); }
+
+.c3 .back{ background-image: url(../img/dua.png); }
+.c4 .back{ background-image: url(../img/dua.png); }
+
+.c5 .back{ background-image: url(../img/weekend.png); }
+.c6 .back{ background-image: url(../img/weekend.png); }
+
+.c7 .back{ background-image: url(../img/kanye.png); }
+.c8 .back{ background-image: url(../img/kanye.png); }
+
+.back{
+
+  transform: rotateY(180deg);
+}
+
+.front {
+    background-image: url(../img/backcard.png);
+}
+.c1{
+  top: 12vw;
+  left: 4.5vw;
+}
+
+.c8{
+ top: 12vw;
+  left: 14.5vw;
+
+}
+
+.c3{ 
+ top: 12vw;
+  left: 24.5vw;
+
+}
+
+.c7{ top: 22vw;
+  left: 4.5vw;
+}
+
+.c5{
+   top: 22vw;
+  left: 24.5vw;
+}
+
+.c6{
+  top: 32vw;
+  left: 24.5vw;
+}
+.c4{
+  top: 32vw;
+  left: 14.5vw;
+}
+.c2{
+   top: 32vw;
+  left: 4.5vw;
+}
+.win-message {
+    position: absolute;
+  display: none;
+  
+  top: 20vw;
+  left: 42vw;
+}
+
+.wh5{
+      position: absolute;
+    width: 35%;
+    height: auto;
+    top: 95vw;
+    left: 60vw;
+    z-index: 1;
+    rotate: -7deg;
+}
+.rl5{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 130vw;
+    left: 10vw;
+    z-index: 5;
+     animation: tentacleBreath2 4s ease-in-out infinite;
+
+}
+
+.photoend{
+     position: absolute;
+    width: 48%;
+    height: auto;
+    top: 180vw;
+    left: 52vw;
+    z-index: 6;
+    pointer-events: none;
+
+}
+
+
+.pq{
+    position: absolute;
+    width: 50vw;
+    height: 27vw;
+    top: 179vw;
+    left: 3vw;
+    z-index: 15;
+    background-image: url(../img/qqq.png);
+        background-repeat: no-repeat;
+    object-fit: cover;  
+    background-size: 100%;
+
+}
+.ptxt{
+     position: absolute;
+     margin-top: 6vw;
+  
+  
+    left: 12vw;
+    z-index: 7;
+}
+
+
+.bt11:hover, .bt22:hover {
+    background-image: url(../img/btlastred\ .png);
+}
+.bt11 {
+    position: absolute;
+    width: 8vw;
+    height: 10vw;
+    left: 12vw;
+    margin-top: 15vw;
+    background-image: url(../img/btlastpng.png);
+        background-size: 100%;
+    background-repeat: no-repeat;
+    object-fit: cover;  
+        color: aliceblue;
+    font-size: 2.5vw;
+    text-align: center;
+    cursor: pointer;
+    z-index: 100;
+    
+}
+
+.bt22 {
+        color: aliceblue;
+    font-size: 2.5vw;
+    text-align: center;
+    position: absolute;
+    width: 8vw;
+    height: 10vw;
+    left: 28vw;
+    margin-top: 15vw;
+    background-image: url(../img/btlastpng.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    object-fit: cover; 
+    z-index: 100;
+     cursor: pointer; 
+}
+
+
+.bt11, .bt22 {
+  display: flex;         
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.25s ease, opacity 0.2s ease;
+
+}
+
+.tt{
+ margin-top: -3.5vw;
+   pointer-events: none;
+}
+
+.rl6{
+  position: absolute;
+    width: 100%;
+    height: auto;
+    top: 190vw;
+    left: 0vw;
+    z-index: 10;
+     animation: tentacleBreath 4s ease-in-out infinite;
+   
+}
+.lefttxt{
+  position: absolute;
+  top: 240vw;
+  left: 3vw;
+  z-index: 15;
+  color: aliceblue;
+    font-size: 3.3vw; 
+
+}
+.righttxt{
+  position: absolute;
+  top: 240vw;
+  right: 3vw;
+  z-index: 15;
+  color: aliceblue;
+    font-size: 3.3vw; 
+
+}
+.qq{
+      animation: pulseOpacity 3s ease-in-out infinite alternate;
+}
+@keyframes pulseOpacity {
+    from { opacity: 1; filter: blur(20px); 
+    }
+    to {opacity: 0.6; filter: blur(0); }
+}
+.qq:hover{
+    transition: 0.5s ease-in-out;
+    animation: paused;
+}
+
+.wh6{
+   position: absolute;
+    width: 100%;
+    height: auto;
+    top: 190vw;
+    left: 0vw;
+    z-index: 1;
+}
+.wh7{
+    position: absolute;
+    width: 40%;
+    height: auto;
+    top: 145vw;
+    left: 0vw;
+    z-index: 1;
+}
